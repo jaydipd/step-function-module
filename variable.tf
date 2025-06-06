@@ -11,8 +11,3 @@ variable "role_arn" {
   description = "IAM Role ARN to be assumed by Step Function"
   type        = string
 }
-
-variable "lambda_arn" {
-  description = "ARN of the Lambda function to invoke"
-  type        = string
-}
